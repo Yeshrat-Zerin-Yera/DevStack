@@ -1,1 +1,19 @@
 @import "tailwindcss";
+:root {
+  --brand-orange: #f97316;
+  --brand-pink: #ec4899;
+  --brand-violet: #8b5cf6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
