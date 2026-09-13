@@ -13,19 +13,19 @@ const YourStack = ({
 }: YourStackProps) => {
   return (
     <aside className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-     <div>
-       <h2 className="text-xl font-bold text-gray-900">
-       Your Stack
-       </h2>
+      <div>
+        <h2 className="text-xl font-bold text-gray-900">
+          Your Stack
+        </h2>
 
-       <p className="mt-1 text-sm text-gray-500">
-       {stack.length}{" "}
-       {stack.length === 1 ? "Technology" : "Technologies"} Selected
-      </p>
-     </div>
+        <p className="mt-1 text-sm text-gray-500">
+          {stack.length}{" "}
+          {stack.length === 1 ? "Technology" : "Technologies"} Selected
+        </p>
+      </div>
 
       {stack.length === 0 ? (
-        <p className="mt-8 text-center text-sm text-gray-500">
+        <p className="mt-8 text-center text-sm text-gray-500 border border-gray-300 rounded p-2">
           <p>Your stack is empty.</p>
           <p>Add technologies to build your stack.</p>
         </p>
@@ -56,9 +56,10 @@ const YourStack = ({
                 <button
                   type="button"
                   onClick={() => onRemove(technology.id)}
-                  className="text-sm font-medium text-red-500 hover:text-red-700"
+                  aria-label={`Remove ${technology.name}`}
+                  className="flex h-9 w-9 items-center justify-center rounded-full bg-red-50 text-2xl font-bold leading-none text-red-500 transition hover:bg-red-100 hover:text-red-700"
                 >
-                  Remove
+                  ×
                 </button>
               </div>
             ))}
