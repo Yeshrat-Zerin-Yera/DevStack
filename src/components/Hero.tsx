@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="text-center lg:text-left">
           <h1 className="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
             Build Your Ideal{" "}
-            <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600 bg-clip-text text-transparent">
+            <span className="brand-gradient bg-clip-text text-transparent">
               Development Stack
             </span>
           </h1>
@@ -21,7 +21,7 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row lg:justify-start">
-            <button className="rounded-full bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600 px-6 py-3 font-semibold text-white">
+            <button className="rounded-full brand-gradient px-6 py-3 font-semibold text-white">
               Explore Technologies
             </button>
 
