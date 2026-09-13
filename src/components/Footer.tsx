@@ -81,7 +81,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="mt-10 border-t border-gray-200 pt-6 text-center text-sm text-gray-500">
+        <div className="mt-10 border-t border-gray-200 pt-6 text-sm text-gray-500">
           © 2026 Dev Stack. All rights reserved.
         </div>
       </div>

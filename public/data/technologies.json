@@ -114,7 +114,7 @@
     "name": "GitHub",
     "category": "Tools",
     "description": "A developer platform for hosting Git repositories, collaborating, and managing software projects.",
-    "icon": "https://icon.icepanel.io/Technology/svg/Github.svg",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/github.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Essential"
