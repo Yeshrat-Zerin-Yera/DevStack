@@ -20,7 +20,7 @@ const YourStack = ({
 
         <p className="mt-1 text-sm text-gray-500">
           {stack.length === 0
-            ? "No technologies selected yet"
+            ? "No Technologies Selected Yet"
             : `${stack.length} ${stack.length === 1 ? "Technology" : "Technologies"
             } Selected`}
         </p>
