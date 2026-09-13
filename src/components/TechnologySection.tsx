@@ -112,7 +112,7 @@ const TechnologySection = () => {
       <div className="mb-10">
         <h2 className="text-3xl font-bold text-gray-900">
           Explore the{" "}
-          <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600 bg-clip-text text-transparent">
+          <span className="brand-gradient bg-clip-text text-transparent">
           Technologies
           </span>
         </h2>
