@@ -52,13 +52,11 @@ const TechnologyCard = ({
 
         <button
           type="button"
-          disabled={isAdded}
           onClick={() => onAdd(technology)}
-          className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
-            isAdded
+          className={`rounded-full px-4 py-2 text-sm font-semibold transition ${isAdded
               ? "cursor-not-allowed bg-gray-200 text-gray-500"
               : "bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600 text-white hover:opacity-90"
-          }`}
+            }`}
         >
           {isAdded ? "✓ Added to Stack" : "Add to Stack"}
         </button>
