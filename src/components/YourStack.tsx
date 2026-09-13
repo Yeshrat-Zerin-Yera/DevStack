@@ -19,8 +19,10 @@ const YourStack = ({
         </h2>
 
         <p className="mt-1 text-sm text-gray-500">
-          {stack.length}{" "}
-          {stack.length === 1 ? "Technology" : "Technologies"} Selected
+          {stack.length === 0
+            ? "No technologies selected yet"
+            : `${stack.length} ${stack.length === 1 ? "Technology" : "Technologies"
+            } Selected`}
         </p>
       </div>
 
